@@ -1,0 +1,30 @@
+<html>
+    <title>Mobile Infromation table..</title>
+</html>
+<html>
+  <body>
+    <table border="3" align="center"> 
+  <tr>
+    <td (click)="sortingid('mobileId')">Mobile Id</td>
+    <td (click)="sortingname('mobileName')">Mobile Name</td>
+    <td (click)="sortingprice('mobilePrice')">Mobile Price</td>
+    <td>ACTION</td>
+  </tr>
+    <tr *ngFor="let m of mobile ">
+      <!-- | sorting:column:order -->
+        <td>
+          {{m.mobileId}}
+        </td>
+        <td>
+          {{m.mobileName}}
+        </td>
+        <td>
+          {{m.mobilePrice}}
+        </td>
+        <td>
+          <button (click)="delete(m.mobileId)" type="button" >Delete</button>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

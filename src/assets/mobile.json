@@ -1,0 +1,26 @@
+[
+    {"mobileId":1001,
+    "mobileName":"iPhone",
+    "mobilePrice":"$76,661.10"
+    },
+    {
+    "mobileId":1002,
+    "mobileName":"MicroMax",
+    "mobilePrice":"$126,661.10"
+    },
+    {
+    "mobileId":1003,
+    "mobileName":"CoolPad",
+    "mobilePrice":"$7,876.00"
+    },
+    {
+    "mobileId":1004,
+    "mobileName":"HTC",
+    "mobilePrice":"$8,876.00"
+    },
+    {
+    "mobileId":1005,
+    "mobileName":"LG",
+    "mobilePrice":"$46,661.10"
+    }
+]
